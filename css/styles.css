@@ -1,35 +1,51 @@
 .body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #ffffff;
     font-size: 16px;
     line-height: 120%;
-
 }
 
 .webstudio {
     font-family: 'Raleway', sans-serif;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 800;
-    line-height: 116.667%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.link {
     text-decoration: none;
 }
 
-.nav > li {
-    list-style-type: none;
+.studio {
+    color: #2e2f42;
 }
 
-.address > li {
-    list-style-type: none;
+.list {
+    list-style: none;
 }
 
-.text {
-    color: #2E2F42;
+.list-text {
+    color: #2e2f42;
     font-weight: 500;
-    line-height: 150%;
-    text-decoration: none;
-    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.list-text:hover {
+    color: #404bbf;
+}
+
+.list-text:focus {
+    color: #404bbf;
+}   
+
+.address {
+    font-style: normal
 }
 
 .address-text {
@@ -37,7 +53,19 @@
     line-height: 150%;
     text-decoration: none;
     font-style: normal;
-    
+    letter-spacing: 0.02em;
+}
+
+.address-text:hover {
+    color: #404bbf;
+}
+
+.address-text:focus {
+    color: #404bbf;
+}
+
+.mainpage {
+    background-color: #2e2f42;
 }
 
 h1 {
@@ -45,6 +73,7 @@ h1 {
     font-weight: 700;
     line-height: 107.143%;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #ffffff;
 }
 
@@ -59,21 +88,45 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.button1 {
-    border-radius: 4px;
+.mainbutton {
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #ffffff;
+    font-size: 16px;
     font-weight: 500;
     line-height: 150%;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
+.mainbutton:hover {
+    background-color: #404BBF;
+}
+
+.mainbutton:focus {
+    background-color: #404BBF;
+}
+
 p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2e2f42;
 }
 
 .footer-text {
@@ -85,8 +138,6 @@ p {
 }
 
 .buttons {
-    padding: 12px 24px;
-    border-radius: 4px;
     border: 1px solid #E7E9FC;
     background: #F4F4FD;
     color: #4D5AE5;
@@ -95,9 +146,7 @@ p {
 }
 
 .buttons:focus {
-    border-radius: 4px;
     background: #404BBF;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     color: #FFF;
     cursor: pointer;
 }
