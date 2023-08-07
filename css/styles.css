@@ -10,10 +10,16 @@
 }
 
 .header {
-    background-color: #ffffff;
-    display: flex;
-    height: 72px;
     border-bottom: 1px solid #E7E9FC;
+}
+
+.container.header {
+    background-color: #ffffff;
+    padding: 0 15px;
+    display: flex;
+    width: 1158px;
+    height: 72px;
+    margin: 0;
 }
 
 .navigation {
@@ -22,9 +28,7 @@
 }
 
 .webstudio {
-    margin: 24px;
-    margin-left: 156px;
-    display: flex;
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     color: #4d5ae5;
     font-size: 18px;
@@ -55,8 +59,7 @@
 }
 
 .list.nav {
-    margin: 24px;
-    margin-left: 76px;
+    display: flex;
     gap: 40px;
 }
 
@@ -80,7 +83,11 @@
 
 .list-text:focus {
     color: var(--button-color);
-}   
+}
+
+.list-text.nav {
+    padding: 24px;
+}
 
 .address {
     display: flex;
@@ -88,7 +95,8 @@
 }
 
 .address-text {
-    margin: 0, auto;
+    display: flex;
+    gap: 40px;
     color: #434455;
     line-height: 150%;
     text-decoration: none;
@@ -350,4 +358,8 @@
     align-items: center;
     display: flex;
     margin: 0, auto;
+}
+
+img {
+    display: block;
 }
