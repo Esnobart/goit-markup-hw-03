@@ -19,7 +19,7 @@
     display: flex;
     width: 1158px;
     height: 72px;
-    margin: 0;
+    margin: 0, auto;
 }
 
 .navigation {
@@ -86,7 +86,7 @@
 }
 
 .list-text.nav {
-    padding: 24px;
+    padding: 24px, 0;
 }
 
 .address {
@@ -120,11 +120,11 @@
     margin: auto;
     height: 600px;
     background-color: #2e2f42;
+    padding: 188px, 0;
 }
 
 .firstheader {
-    margin: 0, auto;
-    width: 496px;
+    max-width: 496px;
     font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;
@@ -167,8 +167,10 @@
 }
 
 .mainbutton {
-    display: inline-flex;
-    padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     align-items: flex-start;
