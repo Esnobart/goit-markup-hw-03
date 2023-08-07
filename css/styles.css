@@ -27,15 +27,6 @@
     align-items: center;
 }
 
-.nav-text {
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-}
-
 .webstudio {
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
@@ -48,9 +39,16 @@
 }
 
 .link {
-    margin: 0, auto;
-    display: flex;
     text-decoration: none;
+}
+
+.nav-text {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .studio {
