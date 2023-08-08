@@ -229,6 +229,8 @@
 }
 
 .list.second {
+    padding: 0;
+    margin: 0;
     display: flex;
     gap: 24px;
 }
@@ -242,6 +244,8 @@
 }
 
 .list.third {
+    padding: 0;
+    margin: 0;
     display: flex;
     gap: 24px;
 }
@@ -255,6 +259,8 @@
 }
 
 .team-list {
+    padding: 0;
+    margin: 0;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -268,18 +274,9 @@
     margin-bottom: 8px;
 }
 
-.list.third {
-    display: flex;
-    gap: 24px;
-}
-
 .footer {
     padding: 100px 0;
     background-color: #2e2f42;
-}
-
-.footer-container {
-    
 }
 
 .webstudio-footer {
@@ -340,6 +337,8 @@
 }
 
 .list.portfolio {
+    padding: 0;
+    margin: 0;
     display: flex;
     row-gap: 48px;
     column-gap: 24px;
