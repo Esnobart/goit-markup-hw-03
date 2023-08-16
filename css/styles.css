@@ -28,7 +28,7 @@
 }
 
 .webstudio {
-    margin-right: 76px;
+    margin-left: 156px;
     font-family: 'Raleway', sans-serif;
     color: #4d5ae5;
     font-size: 18px;
@@ -60,7 +60,7 @@
 }
 
 .list {
-    margin: 0, auto;
+
     display: flex;
     list-style: none;
 }
