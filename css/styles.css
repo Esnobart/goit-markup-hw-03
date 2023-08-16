@@ -25,6 +25,10 @@
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
 .list.nav {
     gap: 40px;
 }
@@ -58,7 +62,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin: 24px 0;
+    padding: 24px 0;
 }
 
 .text-add {
@@ -75,10 +79,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0, auto;
-    padding: 0, auto;
     height: 600px;
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .container.second {
@@ -102,11 +105,12 @@
 }
 
 .mainbutton {
-    display: inline-flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     align-items: flex-start;
     padding: 16px 32px;
-    gap: 10px;
-    border-radius: 4px;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -120,6 +124,7 @@
 }
 
 .selection.second {
+    padding: 120px 0;
     margin: 0;
 }
 
@@ -132,13 +137,13 @@
 .list.first {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
-    margin-left: 156px;
-    margin-right: 156px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .text {
-    width: 264px;
+    width: calc((100% - 72px) / 4);
     margin: 0;
 }
 
@@ -178,10 +183,11 @@
 }
 
 .selection.third {
+    padding-bottom: 120px;
     margin: 0;
 }
 
-.no {
+.noo {
     color: #2E2F42;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -191,20 +197,19 @@
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    margin-top: 120px;
+    margin: 0;
     margin-bottom: 72px;
 }
 
 .list.photo {
-    margin-left: 156px;
-    margin-right: 156px;
-    margin-bottom: 120px;
+    justify-content: center;
     display: flex;
     align-items: center;
     gap: 24px;
 }
 
-.selection.fourth {
+.selection.fourth { 
+    padding: 120px 0;
     display: flex;
     background-color: #F4F4FD;
 }
@@ -213,26 +218,34 @@
     display: flex;
     align-items: center;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
-    margin-bottom: 120px;
+    justify-content: center;
 }
 
 .text.team {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
+.teaam {
+    padding: 32px 0;
+}
+
+.team-text {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .yes.team {
-    margin-bottom: 32px;
+    text-align: center;
 }
 
 .footer {
-    margin: 0;
+    padding: 100px;
     background-color: #2E2F42;
     height: 312px;
 }
@@ -240,7 +253,6 @@
 .container.sixth {
     display: flex;
     flex-direction: column;
-    margin-left: 156px;
 }
 
 .footer-webstudio {
@@ -251,8 +263,8 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-top: 100px;
-    width: 110px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -267,7 +279,7 @@
     line-height: 24px;
     letter-spacing: 0.32px;
     width: 264px;
-    margin-top: 16px;
+    margin: 0;
 }
 
 .list.buttons {
