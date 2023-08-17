@@ -109,6 +109,7 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
+    border-radius: 4px;
     align-items: flex-start;
     padding: 16px 32px;
     color: #FFF;
@@ -206,6 +207,8 @@ img {
     display: flex;
     align-items: center;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 .selection.fourth { 
@@ -221,6 +224,8 @@ img {
     display: flex;
     align-items: center;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 .text.team {
@@ -255,7 +260,7 @@ img {
 }
 
 .footer {
-    padding: 100px;
+    padding: 100px 0;
     background-color: #2E2F42;
     height: 312px;
 }
@@ -292,12 +297,17 @@ img {
     margin: 0;
 }
 
+.container-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .list.buttons {
     gap: 24px;
     justify-content: center;
     margin: 0;
     padding: 0;
-    margin-top: 96px;
+    margin-bottom: 72px;
 }
 
 .buttones {
